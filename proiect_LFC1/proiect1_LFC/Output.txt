@@ -1,0 +1,23 @@
+
+
+Deterministic Finite Automaton
+Start state: 0
+Final states: 6 10 
+Transitions:
+0 -- a --> 1
+1 -- b --> 2
+2 -- a --> 3
+3 -- a --> 4
+3 -- b --> 5
+3 -- c --> 6
+4 -- a --> 7
+5 -- b --> 8
+6 -- a --> 9
+7 -- a --> 4
+7 -- b --> 5
+7 -- c --> 6
+8 -- a --> 4
+8 -- b --> 5
+8 -- c --> 6
+9 -- b --> 10
+10 -- a --> 9
